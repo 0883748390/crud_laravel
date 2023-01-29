@@ -1,0 +1,177 @@
+
+  @import 'https://fonts.googleapis.com/css?family=Kanit|Prompt|Sarabun';
+
+  a {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 16px !important;
+  }
+
+  body {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  section {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  div {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  h1 {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  h2 {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  h3 {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  h4 {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  h5 {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  h6 {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  header {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  p {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  li {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  span {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  button {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  strong {
+    font-family: 'Sarabun', sans-serif;
+  }
+
+
+
+  #footer {
+    background-color: #1a255f;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  #header {
+    background-color: #1a255f;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  #navbar a {
+    color: #FFFFFF;
+  }
+
+  /* สีระบบ  #1a255f*/
+
+
+  /* พื้นหลังระบบ */
+  #hero:before {
+    content: "";
+    background-image: url('assets/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .description {
+    width: 300px;
+  }
+
+  .navbar-mobile ul {
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    padding: 10px 0;
+    background-color: #1a255f;
+    overflow-y: auto;
+    transition: 0.3s;
+  }
+
+  .bg-success a {
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
+  .btn.btn-success {
+    color: #FFFFFF;
+  }
+
+  .bg-danger a {
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
+  .btn.btn-danger {
+    color: #FFFFFF;
+  }
+
+  .bg-info a {
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
+  .btn.btn-info {
+    color: #FFFFFF;
+  }
+
+  .bg-warning a {
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
+  .btn.btn-warning {
+    color: #FFFFFF;
+  }
+
+  .select2-container .select2-selection,
+  .select2-selection__rendered,
+  .select2-selection__arrow {
+    height: 40px !important;
+    line-height: 40px !important;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="select"] {
+    height: 40px !important;
+    line-height: 40px !important;
+  }
+
+  textarea {
+    height: 200px;
+    /* background-color: #115285cf; */
+  }
